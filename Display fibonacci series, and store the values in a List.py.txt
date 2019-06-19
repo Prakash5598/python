@@ -1,0 +1,8 @@
+a = 0
+b = 1
+fibo=[a, b]
+n=int(input('Enter the limits of fib'))
+while b<n:
+    a, b = b, a+b
+    fibo.append(b)
+print(fibo)
