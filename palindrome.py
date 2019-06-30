@@ -10,6 +10,5 @@ if get_number<=1000:
         print("yes")
     else:
         print("no")
-else:
-    print("invalid")
+
     
